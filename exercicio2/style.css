@@ -1,22 +1,35 @@
 .longe-bordas{
-    background-color: #FFA6A9;
-  }
+  background-color: #FFA6A9;
+  margin: 50px;
+  padding: 50px;
+  display: block;
+  text-align: center;
+}
   
-  .afastado{
-    background-color: #77C0ED;
-  }
-  .alto{
-    background-color: #C3E887;
-  }
+.afastado{
+   background-color: #77C0ED;
+   margin: 50px 0;
+   display: block;
+}
+
+.alto{
+  background-color: #C3E887;
+  height: 300px;
+  text-align: center;
+}
   
-  .largo{
+.largo{
   background-color: #FFE396;
-  }
+  width: 500px;
+  padding: 32px;
+  text-align: center;
+}
+
+.bordado{
+  background-color: #AF9BCC;
+  border: 1px dashed black;
+}
   
-  .bordado{
-    background-color: #AF9BCC;
-  }
-  
-  .sumido{
-   
-  }
+.sumido{
+  display: none;
+}
